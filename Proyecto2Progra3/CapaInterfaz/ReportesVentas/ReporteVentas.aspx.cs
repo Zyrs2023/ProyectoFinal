@@ -38,8 +38,8 @@ namespace Proyecto2Progra3.CapaInterfaz.ReportesVentas
             if (dtDetallesVenta.Rows.Count == 0)
             {
 
-                mensajeError.Text = "No se ecuencuentra en la base de datos";
-                //ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('Producto no encontrado');", true);
+                mensajeError.Text = "No se encuentra en la base de datos";
+                
             }
             tbusqueda.Text = "";
 

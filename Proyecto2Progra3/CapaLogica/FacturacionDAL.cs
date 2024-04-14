@@ -157,7 +157,7 @@ namespace Proyecto2Progra3.CapaLogica
             }
             catch (Exception ex)
             {
-                throw new Exception("Error al obtener los detalles: " + ex.Message);
+                Console.WriteLine("Error al obtener los detalles: " + ex.Message);
             }
             return dtDetallesVenta;
         }
