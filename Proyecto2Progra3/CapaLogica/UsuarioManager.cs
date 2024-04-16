@@ -178,12 +178,12 @@ namespace Proyecto2Progra3.Interfaz
             {
                 client.Port = 587;
                 client.UseDefaultCredentials = false;
-                client.Credentials = new System.Net.NetworkCredential("stevencamach1@hotmail.com", "ojos2011");
+                client.Credentials = new System.Net.NetworkCredential("NotificacionToken@outlook.com", "*i,5ScZrn8%P-d3");
                 client.EnableSsl = true;
 
                 MailMessage mailMessage = new MailMessage
                 {
-                    From = new MailAddress("stevencamach1@hotmail.com"),
+                    From = new MailAddress("NotificacionToken@outlook.com"),
                     Subject = "Bienvenido al sistema.",
                     Body = $"¡Bienvenido al sistema!<br/><br/>" +
                            $"Por favor, cambia tu contraseña temporal:<br/><strong>{claveTemporal}</strong><br/><br/>" +
@@ -206,12 +206,12 @@ namespace Proyecto2Progra3.Interfaz
             {
                 client.Port = 587;
                 client.UseDefaultCredentials = false;
-                client.Credentials = new System.Net.NetworkCredential("stevencamach1@hotmail.com", "ojos2011");
+                client.Credentials = new System.Net.NetworkCredential("NotificacionToken@outlook.com", "*i,5ScZrn8%P-d3");
                 client.EnableSsl = true;
 
                 MailMessage mailMessage = new MailMessage
                 {
-                    From = new MailAddress("stevencamach1@hotmail.com"),
+                    From = new MailAddress("NotificacionToken@outlook.com"),
                     Subject = "Nuevo token para cambiar contraseña.",
                     Body = $"Se ha generado un nuevo token para cambiar la contraseña.<br/><br/>" +
                            $"Haz clic <a href='{urlCambioContrasena}'>aquí</a> para cambiar tu contraseña.<br/><br/>" +
